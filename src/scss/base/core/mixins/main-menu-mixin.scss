@@ -3,7 +3,7 @@
   $main-menu-top-open-hover-bg: darken($theme-bg, 6%);
   $main-menu-top-open-head-bg: darken($theme-bg, 4%);
 
-  $main-menu-top-active-head-bg: darken($theme-bg, 4%); //$primary
+  $main-menu-top-active-head-bg: darken($theme-bg, 4%);
 
   $main-menu-sub-color: $theme-color;
   $main-menu-sub-hover-color: lighten($theme-color, 4%);
@@ -108,10 +108,10 @@
         > a {
           background: linear-gradient(
             118deg,
-            rgba($primary, 1),
-            rgba($primary, 0.7)
+            rgba($green, 1),
+            rgba($green, 0.7)
           );
-          box-shadow: 0 0 10px 1px rgba($primary, 0.7);
+          box-shadow: 0 0 10px 1px rgba($green, 0.7);
           color: $white;
           font-weight: 400;
           border-radius: 4px;
@@ -122,7 +122,7 @@
         background: $main-menu-top-open-hover-bg;
 
         > a {
-          color: $primary;
+          color: $green;
           margin-bottom: 0;
         }
 
@@ -172,10 +172,10 @@
         .active {
           background: linear-gradient(
             118deg,
-            rgba($primary, 1),
-            rgba($primary, 0.7)
+            rgba($green, 1),
+            rgba($green, 0.7)
           );
-          box-shadow: 0 0 10px 1px rgba($primary, 0.7);
+          box-shadow: 0 0 10px 1px rgba($green, 0.7);
           border-radius: 4px;
           z-index: 1;
           > a {
